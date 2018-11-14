@@ -1,6 +1,6 @@
 {
   "name": "g0v-banner",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "g0vbar to signify to other websites that this project is g0v.",
   "main": "build/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
     "start": "webpack --watch",
     "build": "webpack"
   },
-  "typings": "./index.d.ts",
+  "types": "./index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/g0v/banner.git"
@@ -20,13 +20,13 @@
   },
   "homepage": "https://github.com/g0v/banner#readme",
   "dependencies": {},
+  "peerDependencies": {
+    "react": "^15.0.0-0 || ^16.0.0-0"
+  },
   "devDependencies": {
-    "awesome-typescript-loader": "^5.2.1",
-    "source-map-loader": "^0.2.4",
-    "typescript": "^3.1.6",
     "@types/react": "^16.7.6",
-    "@types/react-dom": "^16.0.9",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "typescript": "^3.1.6"
   }
 }

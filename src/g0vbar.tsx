@@ -1,6 +1,5 @@
 import * as React from 'react';
 
-
 const left: any = "left";
 
 const g0vbar = {
@@ -16,7 +15,7 @@ const g0vbarImg = {
     marginRight: "10px",
 }
 
-export interface Props {
+interface Props {
     width: string;
 }
 
