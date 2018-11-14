@@ -19,7 +19,7 @@ interface Props {
     width: string;
 }
 
-export default function G0vbar(props: Props) {
+const G0vbar: React.FunctionComponent<Props> = (props) => {
     const g0vbarContent = {
         color: "white",
         fontSize: "12px",
@@ -40,3 +40,5 @@ export default function G0vbar(props: Props) {
         </div>
     );
 }
+
+export default G0vbar;

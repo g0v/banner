@@ -2,11 +2,10 @@
   "name": "g0v-banner",
   "version": "1.0.5",
   "description": "g0vbar to signify to other websites that this project is g0v.",
-  "main": "build/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --watch",
-    "build": "webpack"
+    "build": "tsc"
   },
   "types": "./index.d.ts",
   "repository": {

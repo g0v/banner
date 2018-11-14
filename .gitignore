@@ -39,3 +39,6 @@ lib/*.js
 test/*.js
 *.map
 build/
+*.js
+*.d.ts
+*.js.map
