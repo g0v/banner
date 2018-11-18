@@ -42,3 +42,4 @@ build/
 *.js
 *.d.ts
 *.js.map
+*.tgz

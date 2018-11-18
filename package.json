@@ -1,13 +1,13 @@
 {
   "name": "g0v-banner",
-  "version": "1.0.8",
+  "version": "1.0.10",
   "description": "g0vbar to signify to other websites that this project is g0v.",
   "main": "build/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc"
   },
-  "types": "./index.d.ts",
+  "types": "build/index.d.ts",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/g0v/banner.git"
