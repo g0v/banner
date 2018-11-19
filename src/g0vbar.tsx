@@ -26,7 +26,7 @@ const G0vbar: React.FunctionComponent<Props> = (props) => {
         paddingTop: "5px",
         paddingBottom: "5px",
         textAlign: left,
-        width: props.width,
+        maxWidth: props.width,
         marginLeft: "auto",
         marginRight: "auto"
     }
